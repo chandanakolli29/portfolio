@@ -141,26 +141,55 @@
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" >
-	          	 <div class="overlay"></div>
-	          	</div>
+	          	
+				<div class="one-third js-fullheight order-md-last d-flex align-items-center justify-content-center">
+  <img src="images/animated.png" alt="Girl waving hi" style="width: 250px; height: auto; border-radius: 12px;">
+</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Chandana Kolli</span></h1>
-						<br>
-			            <h2>A Data Analyst</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
+		          	<div>
+      					<h1 style="color: #fff; font-size: 48px; font-weight: bold;">
+        				<span class="wave">👋</span>  <span style="color: #ffbd39">Chandana Kolli</span>
+      					</h1>
+      					<h2 style="color: #ccc; font-size: 28px; margin-top: 10px">
+        				<span id="typed"></span>
+      					</h2>
+    				</div>
 			          
-		            </div>
+		            
 		          </div>
 	        	</div>
 	        </div>
 	      </div>
 		</div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed("#typed", {
+    strings: ["Data Analyst", "SQL Expert", "Python Developer", "Power BI Specialist"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+  });
+</script>
 
+<style>
+  .wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%;
+  }
+
+  @keyframes wave-animation {
+    0% { transform: rotate(0.0deg); }
+    10% { transform: rotate(14.0deg); }
+    20% { transform: rotate(-8.0deg); }
+    30% { transform: rotate(14.0deg); }
+    40% { transform: rotate(-4.0deg); }
+    50% { transform: rotate(10.0deg); }
+    60% { transform: rotate(0.0deg); }
+    100% { transform: rotate(0.0deg); }
+  }
+</style>
 
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
@@ -174,52 +203,59 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 									  <div class="about-img">
-										<img src="images/Picture1.png" class="img-fluid rounded b-shadow-a" alt="">
+										<img src="images/port1.jpg" class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Chandana kolli</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Data Analyst</span></p>
-										<p><span class="title-s">Experience: </span> <span>3 Years 2 Months</span></p>
-										<p><span class="title-s">Address: </span> <span>Kent, Ohio</span></p>
-									  </div>
-									</div>
+  <div class="about-info">
+    <ul style="list-style: none; padding-left: 0; font-size: 16px; line-height: 1.8;">
+      <li>👤 <strong>Name:</strong> Chandana Kolli</li>
+      <li>💼 <strong>Job Role:</strong> Data Analyst</li>
+      <li>📅 <strong>Experience:</strong> 3 Years 2 Months</li>
+      <li>📍 <strong>Address:</strong> Kent, Ohio</li>
+    </ul>
+  </div>
+</div>
 								  </div>
 
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
+									<span>🗄️SQL</span> <span class="pull-right">95%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>PYTHON</span> <span class="pull-right">85%</span>
+									<span>🐍PYTHON</span> <span class="pull-right">85%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Data Visualization</span> <span class="pull-right">90%</span>
+									<span>📈Data Visualization</span> <span class="pull-right">90%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
+									<span>📊Statistical Analysis</span> <span class="pull-right">85%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Machine Learning</span> <span class="pull-right">80%</span>
+									<span>🤖Machine Learning</span> <span class="pull-right">80%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									<span>R Language</span> <span class="pull-right">95%</span>
+									<span>📐R Language</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<span>⚙️Automation</span> <span class="pull-right">95%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
 											aria-valuemax="100"></div>
@@ -241,7 +277,11 @@
 									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
 									<li class="d-flex"><span>Education:</span> <span>Master’s in Data Science</span></li>
 									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, &amp; Tableau</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>SQL, Cloud, PySpark, Excel, Git, JIRA, Google Analytics &amp; RPA</span></li>
+									<li class="d-flex"><span>Database:</span>SQL,NoSql <span></span></li>
+									<li class="d-flex"><span>Programming:</span> <span>C Lan, Python, R Lan</span></li>
+									<li class="d-flex"><span>Web:</span>HTML,CSS <span></span></li>
+									<li class="d-flex"><span>Automation:</span> <span>RPA, Uipath</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>PySpark, Excel, Git, JIRA, Google Analytics &amp; Service Now</span></li>
 								</ul>
 							</div>
 						</div>
@@ -271,7 +311,7 @@
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>Experienced Data Engineer with 3+ years of expertise transforming complex data into actionable insights to support business goals. Skilled in data analysis, SQL, Python, Power BI, and statistical modeling, with a proven ability to enhance data processes and drive informed decision-making.</p>
+            <p>Data Analyst with 3+ years of experience in automotive and logistics analytics. Skilled in SQL, Python, and BI tools to uncover trends, automate workflows, and forecast failures using data from telematics, warranty, and transportation systems. This portfolio highlights real-world projects in vehicle monitoring, failure prediction, and business intelligence dashboarding.</p>
           </div>
         </div>
 
@@ -285,14 +325,14 @@
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">Feb 2020 - Jan 2023</span>
-						<h2>Data Engineer</h2>
+						<h2>Data Analyst</h2>
 						<span class="position">Infosys Limited</span>
 						<p class="mt-4">
 							<ul>
 								<li>Managed and maintained large database tables to track and store vehicle data, using SQL for efficient data handling and retrieval.</li>
 								<li>Leveraged advanced DAX functions and Power Query transformations to create accurate and insightful reports, enhancing forecasting and performance analysis.</li>
 								<li>Regularly engaged with clients, providing updates and ensuring alignment with project objectives, while maintaining service-level agreements.</li>
-								<li>Implemented Row-Level Security (RLS) for data protection, resolved complex data issues, and optimized SQL queries for improved data retrieval and report performance.</li>
+								<li>Designed and deployed dashboards in Power BI and SSRS to track KPIs and visualize financial performance.</li>
 							</ul>
 						</p>
 					</div>
@@ -301,15 +341,14 @@
 
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">2019 - 2020</span>
-						<h2>Devops Intern</h2>
+						<span class="date">Nov 2019 - Jan 2020</span>
+						<h2>DevOps Intern</h2>
 						<span class="position">Mindtree Limited</span>
 						<p class="mt-4">
 							<ul>
-								<li>Assisted in developing CI/CD pipelines, deploying applications on Microsoft Azure to ensure continuous integration and delivery.</li>
-								<li>Utilized Azure DevOps tools for pipeline automation and monitoring, enhancing application scalability and availability.</li>
-								<li>Created Docker containers for Maven applications, streamlining deployment across environments and improving consistency.</li>
-								<li>Collaborated with team members using Git for version control, which improved project management and code tracking.</li>
+								<li>Worked on containerizing applications using Kubernetes and assisted with basic AWS service deployment for internal projects.</li>
+								<li>Developed automated CI/CD pipelines using Jenkins, terraform and Git for cloud-based application deployment and version control.</li>
+								<li>Worked on cloud deployment using AWS and basic automation with Azure pipelines, contributing to CI/CD and DevOps practices.</li>
 							</ul>
 						</p>
 					</div>
@@ -329,7 +368,7 @@
 			<div class="row">
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
-    					<span class="date">2018 - 2021</span>
+    					<span class="date">2017 - 2020</span>
     					<h2>Bachelor of Engineering</h2>
     					<span class="position">Shri Vishnu Engineering college of Women</span>
     					<p class="mt-4">Grade: First class distinction.</p>
@@ -346,11 +385,7 @@
 				</div>
     		</div>
 
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
+    		
     	</div>
     </section>
 
@@ -420,7 +455,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+1 2342821515</a></p>
+	            <p><a href="tel://0101010101">234-282-1515</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -429,7 +464,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">chandanakolli29@gmail.com</a></p>
+	            <p><a href="mailto:info@yoursite.com">chandana.kolli29@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -438,7 +473,9 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
+	            <p>
+            <a href="documents/Chandanakolli.pdf" download>Download PDF</a>
+          </p>
 	          </div>
           </div>
    </div>
@@ -447,19 +484,7 @@
 
  
 	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
-
+   
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
